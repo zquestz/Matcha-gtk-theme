@@ -588,7 +588,7 @@ StScrollBar StButton#vhandle:active, StScrollBar StButton#hhandle:active {
 
 .system-status-icon {
   icon-size: 16px;
-  padding: 0 1px;
+  padding: 0;
 }
 
 #overview {
@@ -2136,15 +2136,15 @@ StScrollBar StButton#vhandle:active, StScrollBar StButton#hhandle:active {
 }
 
 .applet-box {
-  padding-left: 3px;
-  padding-right: 3px;
+  padding: 0 5px;
+  spacing: 5px;
   color: #afb4ba;
   text-shadow: none;
   transition-duration: 100;
 }
 
 .applet-box.vertical {
-  padding: 3px 0;
+  padding: 5px 0;
 }
 
 .applet-box:hover {

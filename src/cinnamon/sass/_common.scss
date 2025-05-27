@@ -455,7 +455,7 @@ StScrollBar {
 
 .system-status-icon {
   icon-size: 16px;
-  padding: 0 1px;
+  padding: 0;
 }
 
 //
@@ -1791,14 +1791,14 @@ StScrollBar {
   }
 
   &-box {
-    padding-left: 3px;
-    padding-right: 3px;
+    padding: 0 5px;
+    spacing: 5px;
     color: $panel_fg;
     text-shadow: none;
     transition-duration: 100;
 
     &.vertical {
-      padding: 3px 0;
+      padding: 5px 0;
     }
 
     &:hover {
