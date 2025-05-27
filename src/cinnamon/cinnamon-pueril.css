@@ -1755,6 +1755,7 @@ StScrollBar StButton#vhandle:active, StScrollBar StButton#hhandle:active {
   color: #b6bdbb;
   border: 0 solid rgba(182, 189, 187, 0.5);
   background-gradient-direction: none;
+  background-color: rgba(182, 189, 187, 0.15);
 }
 
 .panel-top .grouped-window-list-item-box:hover {
