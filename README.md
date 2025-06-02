@@ -1,7 +1,7 @@
 <img src="https://github.com/vinceliuice/matcha/blob/imgs/logo.png" alt="Logo" align="right" /> Matcha Gtk Theme
 ======
 
-Matcha is a flat Design theme for GTK 3, GTK 2 and Gnome-Shell which supports GTK 3 and GTK 2 based desktop environments like Gnome, Unity, Budgie, Pantheon, XFCE, Mate, etc.
+Matcha is a flat Design theme for GTK 4, GTK 3, GTK 2 and Gnome-Shell which supports GTK 3 and GTK 2 based desktop environments like Gnome, Unity, Budgie, Pantheon, XFCE, Mate, Cinnamon, etc.
 
 This theme is based on Arc gtk theme of horst3180. Thanks horst3180 sincerely for his great job!
 
