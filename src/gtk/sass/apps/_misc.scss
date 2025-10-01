@@ -705,8 +705,8 @@ menubar.-vala-panel-appmenu-private { // override global values
     box-shadow: none;
     background-image: none;
     background-color: rgba(0, 0, 0, .6);
-    border-radius: 20px;
-    -gtk-outline-radius: 20px;
+    border-radius: 0;
+    -gtk-outline-radius: 0;
     outline-color: transparent;
     color: rgba(white, .7);
     border-width: 1px;
