@@ -7190,7 +7190,7 @@ menubar.-vala-panel-appmenu-private > menuitem > window.background.popup > menu 
 }
 
 .csstage .framedimage {
-  border-radius: 0;
+  border-radius: 2px;
   border: 1px solid;
   background-color: rgba(128, 128, 128, 0.25);
   background-clip: border-box;
@@ -7241,8 +7241,8 @@ menubar.-vala-panel-appmenu-private > menuitem > window.background.popup > menu 
   box-shadow: none;
   background-image: none;
   background-color: rgba(0, 0, 0, 0.6);
-  border-radius: 0;
-  -gtk-outline-radius: 0;
+  border-radius: 2px;
+  -gtk-outline-radius: 2px;
   outline-color: transparent;
   color: rgba(255, 255, 255, 0.7);
   border-width: 1px;
