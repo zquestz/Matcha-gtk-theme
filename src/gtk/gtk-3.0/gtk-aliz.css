@@ -1609,7 +1609,6 @@ toolbar:not(.inline-toolbar) .linked > entry,
   box-shadow: none;
   border-width: 0 0 1px 0;
   border-style: solid;
-  border-image: linear-gradient(to bottom, black, rgba(0, 0, 0, 0.15)) 1 0 1 0;
 }
 
 .inline-toolbar {

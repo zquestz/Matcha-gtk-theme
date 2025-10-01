@@ -35,10 +35,10 @@
 
     > slider {
       background-color: rgba(lighten($dark_sidebar_fg, 15%), 0.7);
-  
+
       &:hover { background-color: lighten($dark_sidebar_fg, 20%); }
       &:hover:active { background-color: $selected_bg_color; }
-  
+
       &:disabled { background-color: transparent; }
     }
   }
@@ -63,7 +63,7 @@
     &:selected {
       background-color: $selected_bg_color;
       color: $selected_fg_color;
-  
+
       &:hover {
         background-color: $alt_selected_bg_color;
         color: $selected_fg_color;
@@ -204,15 +204,15 @@
       color: $fg_color;
       padding: 0;
       margin: 0;
-  
+
       &:hover {
         background-color: rgba($fg_color, 0.08);
       }
-  
+
       &:active {
         background-color: rgba($fg_color, 0.16);
       }
-  
+
       &:selected {
         background-color: rgba($selected_bg_color, 0.45);
         border-color: $selected_bg_color;
@@ -272,12 +272,12 @@
       color: $header_fg;
       background-color: rgba($header_fg, 0.1);
     }
-  
+
     &:active {
       color: $header_fg;
       background-color: rgba($header_fg, 0.2);
     }
-  
+
     &:checked {
       color: $header_fg;
       background-color: rgba($header_fg, 0.15);
@@ -349,27 +349,27 @@
         @extend %content_pane_button;
       }
     }
-  
+
     #NautilusPathBar {
       background-color: rgba($fg_color, 0.1);
       border: 1px solid $borders_color;
-  
+
       #NautilusPathButton {
         @extend %content_pane_button;
-  
+
         label.dim-label {
           color: rgba($fg_color, 0.75);
-  
+
           &:hover, &:active, &:checked {
             color: $fg_color;
           }
         }
-  
+
         &.current-dir {
           color: $fg_color;
         }
       }
-  
+
       > menubutton {
         > button {
           @extend %content_pane_button;
